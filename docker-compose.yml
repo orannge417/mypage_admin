@@ -1,0 +1,15 @@
+version: '3'
+services:
+  
+  next:
+    build: ./frontend/next
+    container_name: next
+    command: sh -c 
+      "npm run build ; npm run dev" 
+      #本番環境ではnpm run start
+    tty: true
+    volumes:
+      - ./frontend/next:/usr/src/next
+      - /usr/src/next/node_modules
+    expose:
+      - "3000"
