@@ -1,0 +1,9 @@
+.Table {
+    font-size: 18px;
+
+    border-spacing: 0;
+    color: #212121;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
+}

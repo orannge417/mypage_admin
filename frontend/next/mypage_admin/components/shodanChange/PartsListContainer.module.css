@@ -1,0 +1,53 @@
+.Table {
+    font-size: 18px;
+    width: 76em; 
+
+    border-spacing: 0;
+    color: #212121;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
+}
+
+.Table tr {
+    height: 3em;
+    margin: 0;
+
+    border-collapse: collapse;
+    border: 1.5px solid rgb(126, 123, 123); 
+}
+
+.Table th {
+    background-color: #A20000;
+    color: white;
+
+    border-collapse: collapse;
+    border: 1.5px solid rgb(126, 123, 123); 
+
+    font-weight: normal;
+}
+
+.Table td {
+    border-collapse: collapse;
+    border: 1.5px solid rgb(126, 123, 123); 
+
+}
+
+.InquiryDate {
+    width: 10%;
+}
+.PartsName {
+    width: 30%;
+}
+.PartsType {
+    width: 20%;
+}
+.PartsNo {
+    width: 20%;
+}
+.Price {
+    width: 10%;
+}
+.EditBtn {
+    width: 10%;
+}

@@ -1,8 +1,9 @@
-/* .container {
-} */
+.container {
+    height: 100%;
+}
 
 .bodyContainer {
     display: flex;
     flex-direction: row;
-    /* height: 100%; */
+    height: 100%;
 }

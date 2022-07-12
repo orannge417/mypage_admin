@@ -1,0 +1,15 @@
+.Title {
+    width: 12em;
+    height: 2em;
+    
+    color:white;
+    background-color: #a20000;
+
+    margin-bottom: .1em;
+}
+
+.Title p {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2em;
+}

@@ -1,0 +1,23 @@
+.SearchContainer {
+    display: flex;
+    margin: 0;
+}
+
+.Textbox {
+    font-size: 18px;
+    width: 70em;
+    height: 2.5em;
+
+    border-collapse: collapse;
+    border: 1.5px solid rgb(126, 123, 123); 
+}
+
+.Button {
+    font-size: 18px;
+    width: 6em;
+    height: 2.5em;
+
+    background-color: #a20000;
+    color: white;
+    border: none;
+}
