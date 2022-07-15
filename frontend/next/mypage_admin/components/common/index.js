@@ -16,6 +16,7 @@ export {default as SearchContainer} from '../ShodanChange/SearchContainer'
 export {default as OrderInfoContainer} from '../shodanChange/OrderInfoContainer'
 export {default as PartsListContainer} from '../shodanChange/PartsListContainer'
 export {default as PicturesContainer} from '../shodanChange/PicturesContainer'
+export {default as EditPartsContainer} from '../shodanChange/EditPartsContainer'
 
 
 //table

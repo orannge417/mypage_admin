@@ -13,6 +13,11 @@ export default function OrderInfoContainer(props) {
                 <TableCell PrimaryTD="受注日" Value="2022年3月30日"/>
                 <TableCell PrimaryTD="受注金額合計" Value="¥12,000"/>
             </BasicTable>
+
+            <div className={styles.buttonContainer}>
+                <button className={styles.Button}>リセット</button>
+                <button className={styles.Button}>保存</button>
+            </div>
         </BoxContainer>
     )
 }

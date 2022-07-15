@@ -22,7 +22,7 @@ export default function PartsListContainer(props) {
                     <td>セミオーバーホール品</td>
                     <td>18030-S3A-010</td>
                     <td>¥37,000</td>
-                    <td><EditBtn /></td>
+                    <td><EditBtn OnClick={props.OnClick}/></td>
                 </tr>
 
                 <tr>
@@ -31,7 +31,7 @@ export default function PartsListContainer(props) {
                     <td>セミオーバーホール品</td>
                     <td>18030-S3A-010</td>
                     <td>¥37,000</td>
-                    <td><EditBtn /></td>
+                    <td><EditBtn OnClick={props.OnClick}/></td>
                 </tr>
             </table>
         </BoxContainer>
