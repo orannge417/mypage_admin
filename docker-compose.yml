@@ -5,6 +5,8 @@ services:
     build: ./backend/django
     tty: true
     container_name: django-admin
+    ports: 
+      - 8000:8000
     command: uwsgi --socket :8000 --module config.wsgi --py-autoreload 1 --logto /tmp/mylog.log
     volumes:
       - ./backend/django/src:/usr/src/django
@@ -16,12 +18,12 @@ services:
   next:
     build: ./frontend/next
     container_name: next-admin
-    command: sh -c 
-      "npm run build ; npm run dev"
+    ports:
+      - 3000:3000
+    # command: sh -c 
+    #   "npm run build ; npm run dev"
       #本番環境ではnpm run start
     tty: true
     volumes:
       - ./frontend/next:/usr/src/next
       - /usr/src/next/node_modules
-    expose:
-      - "3000"
